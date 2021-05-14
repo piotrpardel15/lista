@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.nav1 {
+    background-color: rgb(25, 146, 136);
+    height: 50px;
+}
+
+.nav2 {
+    color: white;
+    margin-left: 1.6rem;
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+.lista {
+    text-align: center;
+    margin-right: 41%;
+    margin-left: 41% ;
+    margin-top: 25px;
+    box-shadow: 4px 8px 12px 4px rgba(73, 59, 59, 0.849)
+}
+
+#grid {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1200px;
+    grid-gap: 1rem;
+    margin-left: 20px ;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(24, 23, 23, 0.849);
+    color: red;
+}
+
